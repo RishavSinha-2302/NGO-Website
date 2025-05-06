@@ -52,7 +52,7 @@ NGOWebsite/
 
 1. **Download or Clone** the repository:
    ```bash
-   git clone https://github.com/your-username/NGOWebsite.git
+   git clone https://github.com/RishavSinha-2302/NGO-Website.git
    ```
 2. Open `index.html` in your favorite browser.
 3. Browse and explore the site like a user would!
