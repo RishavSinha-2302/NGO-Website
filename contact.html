@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .logo{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: italic;
+            font-size:30px;
+            text-shadow:black;
+            color: bisque;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            background: black;
+            color: white;
+            padding: 15px 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .nav-links {
+            font-size: larger;
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 15px 30px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin-top: 90px;
+            margin-bottom: auto;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+        }
+        .contact-form {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: black;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contact-form button:hover {
+            background: #333;
+        }
+        .contact-info {
+            margin-top: 20px;
+            background: #f1f1f1;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" style="text-decoration: none;"><div class="logo"><img src="S.png" height="35">Shiksha Setu</div></a>
+        <ul class="nav-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="merch.html">Merchandise</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <p><strong>Address:</strong> 123Street, Pune, Maharashtra - 411043</p>
+            <p><strong>Email:</strong> shikshasetu@ngo.org</p>
+            <p><strong>Phone:</strong> +123 456 7890</p>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6364.83707563551!2d73.85572977749926!3d18.458513710230655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1742591297814!5m2!1sen!2sin" width="600" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    </div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .logo{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: italic;
+            font-size:30px;
+            text-shadow:black;
+            color: bisque;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            background: black;
+            color: white;
+            padding: 15px 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .nav-links {
+            font-size: larger;
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 15px 30px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin-top: 90px;
+            margin-bottom: auto;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .support-section {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .qr-code img {
+            width: 200px;
+            height: auto;
+            margin: 20px 0;
+        }
+        .bank-details {
+            margin-top: 20px;
+            background: #f1f1f1;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .donate-btn {
+            background: black;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .donate-btn:hover {
+            background: #333;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" style="text-decoration: none;"><div class="logo"><img src="S.png" height="35">Shiksha Setu</div></a>
+        <ul class="nav-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="merch.html">Merchandise</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Support Our Cause</h2>
+        <div class="support-section">
+            <p>Your contributions help us make a difference. You can support us by donating through UPI or directly to our bank account.</p>
+            <p>Click on donate button below for more options.</p>
+            <div class="qr-code">
+                <p>Scan the QR code to donate via UPI:</p>
+                <img src="qr.jpg" alt="UPI QR Code">
+            </div>
+            <div class="bank-details">
+                <p><strong>Bank Name:</strong> XYZ Bank</p>
+                <p><strong>Account Name:</strong> Shiksha Setu Foundation</p>
+                <p><strong>Account Number:</strong> 1234567890</p>
+                <p><strong>IFSC Code:</strong> XYZB0001234</p>
+            </div>
+            <a href="#" class="donate-btn">Donate Now</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - NGO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .logo{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: italic;
+            font-size:30px;
+            text-shadow:black;
+            color: bisque;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            background: black;
+            color: white;
+            padding: 15px 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .nav-links {
+            font-size: larger;
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 15px 30px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+        }
+        h1 {
+            font-size: 35px;
+            margin-top: 140px;
+        }
+        .video-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 30px auto;
+        }
+        video {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .gallery-container {
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .gallery a {
+            display: block;
+            overflow: hidden;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .gallery a:hover {
+            transform: translateY(-10px) scale(1.05);
+            border:#333;
+            border-width: 2px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+        }
+        .gallery img {
+            height: 200px;
+            width: auto;
+            max-width: 100%;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" style="text-decoration: none;"><div class="logo"><img src="S.png" height="35">Shiksha Setu</div></a>
+        <ul class="nav-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="merch.html">Merchandise</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Gallery</h1>
+    <div class="video-container">
+        <video controls>
+            <source src="vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="gallery-container">
+        <h2>Photo Collection</h2>
+        <div class="gallery">
+            <a href="p1.jpg" target="_blank"><img src="p1.jpg" alt="Gallery Photo 1"></a>
+            <a href="p2.jpg" target="_blank"><img src="p2.jpg" alt="Gallery Photo 2"></a>
+            <a href="p3.jpg" target="_blank"><img src="p3.jpg" alt="Gallery Photo 3"></a>
+            <a href="p4.jpg" target="_blank"><img src="p4.jpg" alt="Gallery Photo 4"></a>
+            <a href="p5.jpg" target="_blank"><img src="p5.jpg" alt="Gallery Photo 5"></a>
+            <a href="p6.jpg" target="_blank"><img src="p6.jpg" alt="Gallery Photo 6"></a>
+            <a href="p7.jpg" target="_blank"><img src="p7.jpg" alt="Gallery Photo 7"></a>
+            <a href="p8.jpg" target="_blank"><img src="p8.jpg" alt="Gallery Photo 8"></a>
+            <a href="p9.jpg" target="_blank"><img src="p9.jpg" alt="Gallery Photo 9"></a>
+            <a href="p10.jpg" target="_blank"><img src="p10.jpg" alt="Gallery Photo 10"></a>
+            <a href="p11.jpg" target="_blank"><img src="p11.jpg" alt="Gallery Photo 10"></a>
+            <a href="p12.jpg" target="_blank"><img src="p12.jpg" alt="Gallery Photo 10"></a>
+            <a href="p13.jpg" target="_blank"><img src="p13.jpg" alt="Gallery Photo 10"></a>
+            <a href="p14.jpg" target="_blank"><img src="p14.jpg" alt="Gallery Photo 10"></a>
+            <a href="p15.jpg" target="_blank"><img src="p15.jpg" alt="Gallery Photo 10"></a>
+            <a href="p16.jpg" target="_blank"><img src="p16.jpg" alt="Gallery Photo 10"></a>
+            <a href="p17.jpg" target="_blank"><img src="p17.jpg" alt="Gallery Photo 10"></a>
+            <a href="p18.jpg" target="_blank"><img src="p18.jpg" alt="Gallery Photo 10"></a>
+            <a href="p19.jpg" target="_blank"><img src="p19.jpg" alt="Gallery Photo 10"></a>
+            <a href="p20.jpg" target="_blank"><img src="p20.jpg" alt="Gallery Photo 10"></a>
+            <a href="p21.jpg" target="_blank"><img src="p21.jpg" alt="Gallery Photo 10"></a>
+            <a href="p22.jpg" target="_blank"><img src="p22.jpg" alt="Gallery Photo 10"></a>
+            <a href="p23.jpg" target="_blank"><img src="p23.jpg" alt="Gallery Photo 10"></a>
+            <a href="p24.jpg" target="_blank"><img src="p24.jpg" alt="Gallery Photo 10"></a>
+            <a href="p25.jpg" target="_blank"><img src="p25.jpg" alt="Gallery Photo 10"></a>
+            <a href="p26.jpg" target="_blank"><img src="p26.jpg" alt="Gallery Photo 10"></a>
+            <a href="p27.jpg" target="_blank"><img src="p27.jpg" alt="Gallery Photo 10"></a>
+            <a href="p28.jpg" target="_blank"><img src="p28.jpg" alt="Gallery Photo 10"></a>
+            <a href="p29.jpg" target="_blank"><img src="p29.jpg" alt="Gallery Photo 10"></a>
+            <a href="p30.jpg" target="_blank"><img src="p30.jpg" alt="Gallery Photo 10"></a>
+            <a href="p31.jpg" target="_blank"><img src="p31.jpg" alt="Gallery Photo 10"></a>
+            <a href="p32.jpg" target="_blank"><img src="p32.jpg" alt="Gallery Photo 10"></a>
+            <a href="p33.jpg" target="_blank"><img src="p33.jpg" alt="Gallery Photo 10"></a>
+            <a href="p34.jpg" target="_blank"><img src="p34.jpg" alt="Gallery Photo 10"></a>
+            <a href="p35.jpg" target="_blank"><img src="p35.jpg" alt="Gallery Photo 10"></a>
+            <a href="p36.jpg" target="_blank"><img src="p36.jpg" alt="Gallery Photo 10"></a>
+            <a href="p37.jpg" target="_blank"><img src="p37.jpg" alt="Gallery Photo 10"></a>
+            <a href="p38.jpg" target="_blank"><img src="p38.jpg" alt="Gallery Photo 10"></a>
+            <a href="p39.jpg" target="_blank"><img src="p39.jpg" alt="Gallery Photo 10"></a>
+        </div>
+    </div>
+</body>
+</html>
