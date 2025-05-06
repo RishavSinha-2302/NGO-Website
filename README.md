@@ -69,7 +69,7 @@ NGOWebsite/
 
 ---
 
-## 🔖 License
+## 🔖 License (MIT License)
 
 This project is **free to use** for educational and learning purposes.  
 📚 Perfect as a beginner project or portfolio sample.
