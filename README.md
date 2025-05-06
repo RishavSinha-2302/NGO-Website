@@ -4,18 +4,6 @@ Welcome to the official repository of a fictional NGO website — designed as pa
 
 ---
 
-## 🌍 Live Demo
-
-🚧 *Coming Soon on GitHub Pages!*  
-*(Once deployed, the live link will be added here.)*
-
----
-
-## 📸 Preview
-
-*(Optional: Add screenshots of your homepage, gallery, etc., here!)*
-
----
 
 ## 🧭 Site Navigation
 
